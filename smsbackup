@@ -29,7 +29,7 @@ if($count>100)
 
 	sleep(1);
 
-	$file = file_get_contents('{$me}.tmp');
+	$file = file_get_contents("{$me}.tmp");
 
 	$smsListIn = explode("From ",$file);
 
